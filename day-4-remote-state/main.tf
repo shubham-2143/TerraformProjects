@@ -5,3 +5,6 @@ resource "aws_instance" "name" {
     Name = "dev"
   }
 }
+resource "aws_s3_bucket" "name" {
+  bucket = "KolhapurMH"
+}
